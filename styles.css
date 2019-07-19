@@ -1,0 +1,1773 @@
+/**desktop**/
+@media only screen and (min-width:950px) {
+    
+body{
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: black;
+}
+
+@font-face{
+    font-family: "ArialBlack";
+    src: url(arial_black.ttf);
+}
+
+@font-face{
+    font-family: "Lucida";
+    src: url(lucida_sans.ttf);
+}
+
+/**register page css**/
+
+#register_bg{
+    height:3100px;
+    width:100%;
+    background: url(images/register_bg.jpg)
+        center center fixed no-repeat;
+    background-size: cover;	
+}
+
+.early_title{
+    color:white;
+    margin-left: 10%;
+    margin-top: 90px;
+    margin-bottom: 60px;
+}
+
+h1, h3{
+    font-family: "ArialBlack";
+    color: white;
+    text-transform: uppercase;
+}
+
+h1{
+    font-size: 3em;
+}
+
+h2, p{
+    font-family: "Lucida";
+    color: white;
+}
+    
+.price_info h2{
+    text-shadow: 5px 5px 8px black;
+}
+    
+.early_title h1, .early_title h2 {
+    text-shadow: 3px 3px 8px black;    
+}
+
+.ticket_table{
+    color:white;
+    width: 75%;
+    height: 600px;
+    margin-left: 10%;
+    border-collapse: collapse;
+    background-color: rgba(0,0,0,.4);
+}
+
+.ticket_table p{
+    margin-top: -20px;
+}
+
+.ticket_table td{
+    border-bottom: 1px solid white;
+}
+
+.ticket_table th{
+    border-bottom: 1px solid white;
+    border-spacing: 15px;
+    text-align: left;
+}
+
+.price_info{
+    width:60%;
+    margin: 0px auto;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.price_info .button{
+    font-family: "Lucida";
+    font-size: 1.5em;
+    height: 100px;
+    border-radius: 20px;
+    padding: 20px 30px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+
+#about_aiga{
+    height:900px;
+    width:100%;
+    background: url(images/about_aiga_bg.jpg)
+        center center fixed no-repeat;
+    background-size: cover;	
+}
+
+#about_aiga .about_conf_content{
+    margin-top: 160px;
+    margin-bottom:80px;
+}
+
+#about_conference{
+    height:1500px;
+    width:100%;
+    background: url(images/about_conference_bg.jpg)
+        center center fixed no-repeat;
+    background-size: cover;	
+}
+
+.about_conf_content{
+    width: 50%;
+    margin-left: 40%;
+    margin-top: -20%;
+    margin-bottom: 50px;
+    background-color: rgba(255,255,255,.25);
+    padding: 5px 30px;
+}
+
+.about_conf_content p{
+    color: black;
+    margin-bottom: 25px;
+    font-size: 1.1em;
+}
+
+.bold{
+    font-family: "ArialBlack";
+    text-transform: uppercase;
+    font-size: 1.5em;
+}
+
+#homepage{
+    height:700px;
+    width:100%;
+    background: url(images/homepage_bg.png)
+        center center fixed no-repeat;
+    background-size: cover;	
+}
+
+#about_slo{
+    height:2200px;
+    width:100%;
+    background: url(images/about_slo_bg.jpg)
+        center center fixed no-repeat;
+    background-size: cover;	
+}
+    
+#about_slo p{
+    color:white;
+}
+
+.semi_bold{
+    text-transform: uppercase;
+    font-family: "ArialBlack";
+}
+
+#about_slo .about_conf_content{
+    margin-top: 100px;
+}
+
+#about_slo .about_conf_content p{
+    margin-bottom: 50px;
+}
+
+    
+#conference_speakers{
+    height:1850px;
+    width:100%;
+    background: url(images/conference_speakers_bg.jpg)
+        center center fixed no-repeat;
+    background-size: cover;	
+}
+
+
+.speakers_left img, .speakers_right img{
+    width:130px;
+    padding:0px;
+    vertical-align: top;
+}
+
+.speakers_left tr, .speakers_right tr{
+    color: white;
+    vertical-align:top;
+}
+
+.speakers_left td, .speakers_right td{
+    padding:15px;
+}
+
+.speakers_left h3, .speakers_right h3{
+    font-family: "ArialBlack";
+    font-size: 1.5em;
+    text-decoration: underline;
+}
+
+.speakers_left h4, .speakers_right h4{
+    font-family: "Lucida";
+    font-size: .9em;
+}
+
+.speakers_left, .speakers_right{
+    width:42%;
+    margin-top: 120px;
+    border-spacing: 0px 40px;
+    background-color: rgba(0,0,0,.4);
+    margin-bottom: 40px;
+    min-width: 350px;
+}
+
+.speakers_left{
+    float:left;
+    margin-left: 7%;
+    padding-left: 20px;
+    padding-bottom: 132px;
+    transform:translateX(1px);
+}
+
+.speakers_right{
+    float:right;
+    margin-right: 9%;
+    padding-left: 20px;
+    padding-bottom: 0px;
+}
+
+.speakers_left a, .speakers_right a{
+    text-decoration:none;
+    color:white;
+}
+
+.speakers_left a:hover, .speakers_right a:hover{
+    color:#89d5f1;
+}
+
+#ws_leaders .speakers_left{
+    padding-bottom: 300px;
+}
+      
+#ws_leaders{
+    height:2000px;
+    width:100%;
+    background: url(images/ws_speakers_bg.jpg)
+        center center fixed no-repeat;
+    background-size: cover;	
+}
+
+/**titles for interior pages**/
+.title{
+    width:90%;
+    margin-top: 50px;
+}
+    
+.home_blackbox{
+    width:100%;
+    height:50px;
+    background-color: black;
+}
+
+/**title for homepage**/
+.hometitle img{
+    width: 100%;
+    display: block;
+    margin: auto;
+    margin-bottom: 35px;
+    z-index: 1;
+}
+
+
+.mobilenav{
+    width:100%;
+    background-color: black;
+    padding-bottom: 30px;
+    font-family: "Lucida";
+    text-align: center;
+    font-size: 0;
+}
+
+ul {
+    list-style-type: none;
+    background-color: black;
+    display: inline-block;
+    margin: 0px auto;
+    text-align: center;
+    width:100%;
+}
+    
+li{
+    display: inline;
+    font-size: 18px;
+}
+    
+ li:nth-child(5){
+    margin-left: -4px;
+}
+
+li a{
+   margin-bottom: 10px;
+    transform: translateX(-25%);
+}    
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 25px 35px 15px 35px;
+    text-decoration: none;
+    border-bottom: 1px solid white;
+    text-transform: uppercase;
+    font-family: "Lucida";
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    color:#89d5f1;
+}
+
+li.dropdown {
+    display: inline-block;
+    
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-bottom: 1px solid black;
+    transform: translateX(-25%);
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 10px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    border-bottom: 1px solid black;
+    transform: translateX(0%);
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+footer{
+    display: flex;
+    background-color: black;
+    padding-top: 40px;
+    width: 100%;
+    z-index: 8;
+    font-size: 0;
+}
+    
+footer ul{
+    text-align: center;
+    margin-right: 60px;
+}
+
+footer li{
+    margin:auto;
+    align-items: center;
+    border-top: 1px solid white;
+    padding-top: 45px;
+    color: white;
+}
+
+
+footer ul img{
+    width:60%;
+    transform: translateX(60px);
+}
+
+
+footer li a{
+    border-bottom: 0px;
+    color: white;
+}
+
+.button {
+    background-color: white; 
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 15px 2px 0px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    transform: translateY(-8px);
+}
+
+.button:hover {
+    background-color: #89d5f1;
+    color: white;
+}
+
+/**iFrame for map**/
+.iframe{
+    text-align: right;
+    display: table;
+    margin-left: 40%;
+    width: 55%;
+    margin-bottom: 50px;
+}
+    
+/** Schedule background **/
+/** Schedule background **/
+#schedule{
+    height:2750px;
+    width:100%;
+    background: url(images/schedule_bkg.jpg)
+        center center fixed no-repeat;
+    background-size: cover;
+}
+
+/** Day 1 Event **/
+.day_1 h5{
+    text-transform: uppercase;
+    font-family: "Lucida";
+    font-size: 1em;
+    float: right;
+    margin-top: 0px;
+    margin-right: 2%;
+    color: black;
+    margin-bottom: 25px;
+
+}
+
+/** Day 2 Event **/
+.day_2 h5{
+    text-transform: uppercase;
+    font-family: "Lucida";
+    font-size: 1em;
+    float: right;
+    margin-top: 0px;
+    margin-right: 2%;
+    color: white;
+    margin-bottom: 25px;
+    text-align: right;
+
+}
+
+/** Day 1 table **/
+.day_1{
+    margin-left:3%;
+    margin-right: 3%;
+    width:43%;
+    margin-top: 120px;
+    border-spacing: 0px 40px;
+    background-color: rgba(255,255,255,.25);
+    float: left;
+    padding-left: 2%;
+
+}
+/** Day 1 time **/
+.day_1 h3{
+    color: black;
+    margin-bottom: 0px;
+    margin-top: -30px;
+    float: left;
+}
+
+/** Day 1 talk name **/
+.day_1 p{
+    color: black;
+    float: right;
+    margin-top: -70px;
+    margin-right: 2%;
+    text-align: right;
+}
+
+/** Day 2 time **/
+.day_2 h3{
+    color: white;
+    margin-bottom: 0px;
+    margin-top: -30px;
+}
+
+/** Day 2 table **/
+.day_2{
+    margin-left: 3%;
+    margin-right: 3%;
+    width:43%;
+    margin-top: 120px;
+    border-spacing: 0px 40px;
+    background-color: rgba(0,0,0,.5);
+    float: right;
+    padding-left: 2%;
+    color: white;
+}
+
+/** Day 2 talk name **/
+.day_2 p{
+    color: white;
+    float: right;
+    margin-top: -70px;
+    margin-right: 2%;
+    text-align: right;
+}
+
+.day_1 h6{
+    color: black;
+    font-family: "ArialBlack";
+    font-size: 2em;
+    float: left;
+    margin-top: 0;
+    text-decoration: underline;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+    }
+    
+    
+.day_2 h6{
+    color: white;
+    font-family: "ArialBlack";
+    font-size: 2em;
+    float: left;
+    margin-top: 0;
+    text-decoration: underline;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+    }
+    
+.day_1 h5:hover{
+    color:rgb(66, 72, 244);
+}
+    
+.day_2 h5:hover{
+    color:rgb(217, 132, 99);
+}
+    
+}
+
+
+
+
+
+
+
+
+
+/**tablet**/
+
+@media only screen and (min-width:460px ) and (max-width:949px) {
+    body{
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: black;
+}
+
+@font-face{
+    font-family: "ArialBlack";
+    src: url(arial_black.ttf);
+}
+
+@font-face{
+    font-family: "Lucida";
+    src: url(lucida_sans.ttf);
+}
+
+/**register page css**/
+
+#register_bg{
+    height:3050px;
+    width:100%;
+    background: url(images/register_bg.jpg)
+        center center fixed no-repeat;
+    background-size: cover;	
+}
+
+.early_title{
+    color:white;
+    display:table;
+    margin:0px auto;
+    margin-top: 90px;
+    margin-bottom: 40px;
+    width:70%;
+    text-align: center;
+}
+
+h1, h3{
+    font-family: "ArialBlack";
+    color: white;
+    text-transform: uppercase;
+}
+
+h1{
+    font-size: 2.5em;
+}
+
+h2, p{
+    font-family: "Lucida";
+    color: white;
+}
+
+.ticket_table{
+    color:white;
+    width: 92%;
+    height: 600px;
+    margin:0px auto;
+    border-collapse: collapse;
+    background-color: rgba(0,0,0,.4)
+}
+
+.ticket_table p{
+    margin-top: -20px;
+}
+
+.ticket_table td{
+    border-bottom: 1px solid white;
+    width: 60%;
+    text-align: center;
+}
+
+.ticket_table th{
+    border-bottom: 1px solid white;   
+}
+    
+.price_info h2{
+    text-shadow: 5px 5px 8px black;
+}
+    
+.early_title h1, .early_title h2 {
+    text-shadow: 3px 3px 8px black;    
+}
+
+.price_info{
+    width:60%;
+    margin: 0px auto;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.price_info .button{
+    font-family: "Lucida";
+    font-size: 1.5em;
+    height: 100px;
+    border-radius: 20px;
+    padding: 20px 30px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+
+#about_aiga{
+    height:800px;
+    width:100%;
+    background: url(images/about_aiga_bg.jpg)
+        center center fixed no-repeat;
+    background-size: cover;	
+}
+
+#about_aiga .about_conf_content{
+    margin-top: 80px;
+    margin-bottom:80px;
+}
+
+#about_conference{
+    height:1600px;
+    width:100%;
+    background: url(images/about_conference_bg.jpg)
+        center center fixed no-repeat;
+    background-size: cover;	
+}
+
+.about_conf_content{
+    width: 72%;
+    margin: 0px auto;
+    margin-top: -17%;
+    margin-bottom: 150px;
+    background-color: rgba(255,255,255,.25);
+    padding: 5px 30px;
+}
+
+.about_conf_content p{
+    color: black;
+    margin-bottom: 25px;
+    font-size: 1.1em;
+}
+
+.bold{
+    font-family: "ArialBlack";
+    text-transform: uppercase;
+    font-size: 1.5em;
+}
+
+#homepage{
+    height:400px;
+    width:100%;
+    background: url(images/homepage_bg.png)
+        center center fixed no-repeat;
+    background-size: cover;	
+}
+
+#about_slo{
+    height:2220px;
+    width:100%;
+    background: url(images/about_slo_bg.jpg)
+        center center fixed no-repeat;
+    background-size: cover;	
+}
+    
+    #about_slo p{
+        color:white;
+    }
+
+
+.semi_bold{
+    text-transform: uppercase;
+    font-family: "ArialBlack";
+}
+
+#about_slo .about_conf_content{
+    margin-top: 100px;
+}
+
+#about_slo .about_conf_content p{
+    margin-bottom: 50px;
+}
+    
+.speaker_tables{
+    width: 100%;
+    height:100%;
+}
+
+#conference_speakers{
+    height:2100px;
+    width:100%;
+    background: url(images/conference_speakers_bg.jpg)
+        center center fixed no-repeat;
+    background-size: cover;	
+}
+
+
+.speakers_left img, .speakers_right img{
+    width:150px;
+    padding:0px;
+    vertical-align: top;
+}
+
+.speakers_left tr, .speakers_right tr{
+    color: white;
+    vertical-align:top;
+}
+
+.speakers_left td, .speakers_right td{
+    padding:15px;
+}
+
+.speakers_left h3, .speakers_right h3{
+    font-family: "ArialBlack";
+    font-size: 1.5em;
+    text-decoration: underline;
+}
+
+.speakers_left h4, .speakers_right h4{
+    font-family: "Lucida";
+    font-size: .9em;
+}
+
+.speakers_left, .speakers_right{
+    width:90%;
+    margin-top: 50px;
+    border-spacing: 0px 40px;
+    background-color: rgba(0,0,0,.4);
+}
+
+.speakers_left{
+    float:left;
+    margin-left: 5%;
+    padding-left: 20px;
+}
+
+.speakers_right{
+    float:left;
+    margin-left: 5%;
+    padding-left: 20px;
+    margin-top: 0px;
+}
+
+.speakers_left a, .speakers_right a{
+    text-decoration:none;
+    color:white;
+}
+
+.speakers_left a:hover, .speakers_right a:hover{
+    color:#89d5f1;
+}
+
+#ws_leaders{
+    height:2200px;
+    width:100%;
+    background: url(images/ws_speakers_bg.jpg)
+        center center fixed no-repeat;
+    background-size: cover;	
+}
+
+/**titles for interior pages**/
+.title{
+    width:100%;
+    padding-top: 33px;
+}
+
+/**title for homepage**/
+.hometitle img{
+    width: 100%;
+    display: block;
+    margin: auto;
+    margin-top: 55px;
+    margin-bottom: 0;
+    z-index: 1;
+}
+
+/**hamburger meny css**/
+    
+* {
+  font-family: "Lucida", sans-serif;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: transparent;
+  /* For some Androids */
+}
+
+.top-animate {
+  background: #fff !important;
+  top: 13px !important;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.mid-animate {
+  opacity: 0;
+}
+
+.bottom-animate {
+  background: #fff !important;
+  top: 13px !important;
+  -webkit-transform: rotate(-225deg);
+  transform: rotate(-225deg);
+}
+
+.top-menu {
+  top: 5px;
+  width: 25px;
+  height: 2px;
+  border-radius: 10px;
+  background-color: #F9A530;
+}
+
+.mid-menu {
+  top: 13px;
+  width: 25px;
+  height: 2px;
+  border-radius: 10px;
+  background-color: #F9A530;
+}
+
+.bottom-menu {
+  top: 21px;
+  width: 25px;
+  height: 2px;
+  border-radius: 10px;
+  background-color: #F9A530;
+}
+
+.menui {
+  background: white;
+  transition: 0.6s ease;
+  transition-timing-function: cubic-bezier(.75, 0, .29, 1.01);
+  margin-top: 10px;
+  position: absolute;
+}
+
+.icon {
+  z-index: 999;
+  position: fixed;
+  display: block;
+  padding: 10px;
+  height: 42px;
+  width: 42px;
+  top: 10;
+  right: 0;
+}
+
+.mobilenav {
+  font-family: inherit;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  display: none;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: black;
+}
+
+.mobilenav li {
+  list-style-type: none;
+  text-align: left;
+    display: block;
+}
+
+.mobilenav li a {
+  font-size: 130%;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 300;
+  width: 85%;
+    margin-left: 20px;
+}
+
+.mobilenav li:first-child {
+  margin-top: 60px;
+}
+
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    margin: 0px auto;
+    padding: 25px 10px;
+    text-decoration: none;
+    border-bottom: 1px solid white;
+    text-transform: uppercase;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    color:#89d5f1;
+}
+
+li.dropdown {
+    display: inline-block;
+    width: 100%; 
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    width:100%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    bottom: 1px solid black;
+    line-height: 23px;
+    margin-left: 0px;
+}
+
+.dropdown-content a {
+    color: black !important;
+    padding: 10px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    border-bottom: 1px solid black;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+footer{
+    display: flex;
+    background-color: black;
+    padding-top: 20px;
+    justify-content: center;
+    min-width: 630px;
+}
+
+footer ul{
+    border-top: 1px solid white;
+    text-align: center;
+    list-style-type: none;
+}
+
+footer li{
+    justify-content: center;
+    float: left;
+    text-decoration: none;
+}
+
+
+footer ul img{
+    width:50%;
+    float:left;
+}
+
+
+footer li a{
+    border-bottom: 0px;
+    
+}
+
+.button {
+    background-color: white; 
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    transform: translateY(-15px);
+}
+
+.button:hover {
+    background-color: #89d5f1;
+    color: white;
+}
+    
+    
+/**iFrame for map**/
+.iframe{
+    display: table;
+    margin:0px auto;
+    width: 65%;
+    margin-bottom: 50px;
+}
+    
+/** Schedule background **/
+#schedule{
+    height:2700px;
+    width:100%;
+    background: url(images/schedule_bkg.jpg)
+        center center fixed no-repeat;
+    background-size: cover; 
+}
+    
+.sched_tables{
+    height:100%;
+}
+
+/** Day 1 Event **/
+.day_1 h5{
+    text-transform: uppercase;
+    font-family: "Lucida";
+    font-size: 1em;
+    float: right;
+    margin-top: 0px;
+    margin-right: 2%;
+    color: black;
+    margin-bottom: 25px;
+
+}
+
+/** Day 2 Event **/
+.day_2 h5{
+    text-transform: uppercase;
+    font-family: "Lucida";
+    font-size: 1em;
+    float: right;
+    margin-top: 0px;
+    margin-right: 2%;
+    color: white;
+    margin-bottom: 25px;
+
+}
+
+/** Day 1 table **/
+.day_1{
+    margin-left:3%;
+    margin-right: 3%;
+    width:43%;
+    margin-top: 120px;
+    border-spacing: 0px 40px;
+    background-color: rgba(255,255,255,.25);
+    float: left;
+    padding-left: 2%;
+
+}
+/** Day 1 time **/
+.day_1 h3{
+    color: black;
+    margin-bottom: 0px;
+    margin-top: -30px;
+}
+
+/** Day 2 time **/
+.day_2 h3{
+    color: white;
+    margin-bottom: 0px;
+    margin-top: -30px;
+}
+
+/** Day 2 table **/
+.day_2{
+    margin-left: 3%;
+    margin-right: 3%;
+    width:43%;
+    margin-top: 120px;
+    border-spacing: 0px 40px;
+    background-color: rgba(0,0,0,.5);
+    float: right;
+    padding-left: 2%;
+    color: white;
+}
+
+/** Day 1 talk name **/
+.day_1 p{
+    color: black;
+    float: right;
+    margin-top: -70px;
+    margin-right: 2%;
+    text-align: right;
+}
+
+/** Day 2 talk name **/
+.day_2 p{
+    color: white;
+    float: right;
+    margin-top: -70px;
+    margin-right: 2%;
+    text-align: right;
+}
+    
+.day_1 h6{
+    color: black;
+    font-family: "ArialBlack";
+    font-size: 2em;
+    float: left;
+    margin-top: 0;
+    text-decoration: underline;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+    }
+    
+    
+.day_2 h6{
+    color: white;
+    font-family: "ArialBlack";
+    font-size: 2em;
+    float: left;
+    margin-top: 0;
+    text-decoration: underline;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+    }
+}
+
+
+
+
+
+
+/**phone css**/
+@media only screen and (max-width:459px) {
+ 
+body{
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: black;
+}
+
+@font-face{
+    font-family: "ArialBlack";
+    src: url(arial_black.ttf);
+}
+
+@font-face{
+    font-family: "Lucida";
+    src: url(lucida_sans.ttf);
+}
+
+/**register page css**/
+
+#register_bg{
+    height:2800px;
+    width:100%;
+    background: url(images/register_bg.jpg)
+        center center fixed no-repeat;
+    background-size: cover;	
+}
+
+.early_title{
+    color:white;
+    display:table;
+    margin:0px auto;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    width:70%;
+    text-align: center;
+}
+    
+.early_title h2{
+    font-size: .95em;
+    width: 300px;
+    margin: 0px auto;
+    }
+
+h1, h3{
+    font-family: "ArialBlack";
+    color: white;
+    text-transform: uppercase;
+}
+
+h1{
+    font-size: 2.2em;
+}
+
+h2, p{
+    font-family: "Lucida";
+    color: white;
+}
+
+.ticket_table{
+    color:white;
+    width: 100%;
+    height: 600px;
+    margin:0px auto;
+    border-collapse: collapse;
+    background-color: rgba(0,0,0,.4)
+}
+
+.ticket_table p{
+    margin-top: -20px;
+}
+
+.ticket_table td{
+    border-bottom: 1px solid white;
+    text-align: center;
+    font-size: .75em;
+    line-height: 1.9em;
+}
+
+.ticket_table th{
+    border-bottom: 1px solid white;   
+}
+    
+.price_info h2{
+    text-shadow: 5px 5px 8px black;
+}
+    
+.early_title h1, .early_title h2 {
+    text-shadow: 3px 3px 8px black;    
+}
+
+.price_info{
+    width:75%;
+    margin: 0px auto;
+    text-align: center;
+    margin-top: 50px;
+    font-size: .8em;
+}
+
+.price_info .button{
+    font-family: "Lucida";
+    font-size: 1.3em;
+    height: 80px;
+    border-radius: 20px;
+    padding: 20px 30px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    transform: translateX(0px);
+}
+
+
+#about_aiga{
+    height:1000px;
+    width:100%;
+    background: url(images/about_aiga_bg.jpg)
+        center center fixed no-repeat;
+    background-size: cover;	
+}
+
+#about_aiga .about_conf_content{
+    margin-top: 50px;
+    margin-bottom:80px;
+}
+
+#about_conference{
+    height:1800px;
+    width:100%;
+    background: url(images/about_conference_bg.jpg)
+        center center fixed no-repeat;
+    background-size: cover;	
+}
+
+.about_conf_content{
+    width: 75%;
+    margin: 0px auto;
+    margin-top: -100px;
+    margin-bottom: 50px;
+    background-color: rgba(255,255,255,.25);
+    padding: 5px 30px;
+}
+
+.about_conf_content p{
+    color: black;
+    margin-bottom: 25px;
+    font-size: 1.1em;
+}
+
+#about_slo p{
+        color:white;
+    }
+
+.bold{
+    font-family: "ArialBlack";
+    text-transform: uppercase;
+    font-size: 1.5em;
+}
+
+#homepage{
+    height:400px;
+    width:100%;
+    background: url(images/homepage_bg.png)
+        center center fixed no-repeat;
+    background-size: cover;	
+    margin-top: 40px;
+}
+
+#about_slo{
+    height:2350px;
+    width:100%;
+    background: url(images/about_slo_bg.jpg)
+        center center fixed no-repeat;
+    background-size: cover;	
+}
+
+.semi_bold{
+    text-transform: uppercase;
+    font-family: "ArialBlack";
+}
+
+#about_slo .about_conf_content{
+    margin-top: 50px;
+}
+
+#about_slo .about_conf_content p{
+    margin-bottom: 50px;
+}
+
+#conference_speakers{
+    height:3200px;
+    width:100%;
+    background: url(images/conference_speakers_bg.jpg)
+        center center fixed no-repeat;
+    background-size: cover;	
+}
+
+
+.speakers_left img, .speakers_right img{
+    width:120px;
+    padding:0px;
+    vertical-align: top;
+}
+
+.speakers_left tr, .speakers_right tr{
+    color: white;
+    vertical-align:top;
+}
+
+.speakers_left td, .speakers_right td{
+    padding:15px;
+    display: block;
+}
+
+.speakers_left h3, .speakers_right h3{
+    font-family: "ArialBlack";
+    font-size: 1.5em;
+    text-decoration: underline;
+}
+
+.speakers_left h4, .speakers_right h4{
+    font-family: "Lucida";
+    font-size: .8em;
+}
+
+.speakers_left, .speakers_right{
+    width:90%;
+    margin-top: 50px;
+    border-spacing: 0px 40px;
+    background-color: rgba(0,0,0,.4);
+}
+
+.speakers_left{
+    float:left;
+    margin-left: 5%;
+}
+
+.speakers_right{
+    float:left;
+    margin-left: 5%;
+    margin-top: 0px;
+}
+
+.speakers_left a, .speakers_right a{
+    text-decoration:none;
+    color:white;
+}
+
+.speakers_left a:hover, .speakers_right a:hover{
+    color:#89d5f1;
+}
+
+
+#ws_leaders{
+    height:3000px;
+    width:100%;
+    background: url(images/ws_speakers_bg.jpg)
+        center center fixed no-repeat;
+    background-size: cover;	
+}
+
+/**titles for interior pages**/
+.title{
+    width:100%;
+    padding-top: 30px;
+}
+
+/**title for homepage**/
+.hometitle img{
+    width: 100%;
+    display: block;
+    margin: auto;
+    margin-top: 55px;
+    margin-bottom: 0;
+    z-index: 1;
+}
+    
+/**hamburger meny css**/
+    
+* {
+  font-family: "Lucida", sans-serif;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: transparent;
+  /* For some Androids */
+}
+
+.top-animate {
+  background: #fff !important;
+  top: 13px !important;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.mid-animate {
+  opacity: 0;
+}
+
+.bottom-animate {
+  background: #fff !important;
+  top: 13px !important;
+  -webkit-transform: rotate(-225deg);
+  transform: rotate(-225deg);
+}
+
+.top-menu {
+  top: 5px;
+  width: 25px;
+  height: 2px;
+  border-radius: 10px;
+  background-color: #89d5f1;
+}
+
+.mid-menu {
+  top: 13px;
+  width: 25px;
+  height: 2px;
+  border-radius: 10px;
+  background-color: #89d5f1;
+}
+
+.bottom-menu {
+  top: 21px;
+  width: 25px;
+  height: 2px;
+  border-radius: 10px;
+  background-color: #89d5f1;
+}
+
+.menui {
+  background: white;
+  transition: 0.6s ease;
+  transition-timing-function: cubic-bezier(.75, 0, .29, 1.01);
+  margin-top: 10px;
+  position: absolute;
+}
+
+.icon {
+  z-index: 999;
+  position: fixed;
+  display: block;
+  padding: 10px;
+  height: 42px;
+  width: 42px;
+  top: 10;
+  right: 0;
+}
+
+.mobilenav {
+  font-family: inherit;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  display: none;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: black;
+}
+
+.mobilenav li {
+  list-style-type: none;
+  text-align: left;
+    display: block;
+}
+
+.mobilenav li a {
+  font-size: 130%;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 300;
+  width: 85%;
+    margin-left: 20px;
+}
+
+.mobilenav li:first-child {
+  margin-top: 60px;
+}
+
+
+.mobilenav li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    margin: 0px auto;
+    padding: 25px 10px;
+    text-decoration: none;
+    border-bottom: 1px solid white;
+    text-transform: uppercase;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    color:#89d5f1;
+}
+
+li.dropdown {
+    display: inline-block;
+    width: 100%; 
+    
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    width:100%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    bottom: 1px solid black;
+    line-height: 23px;
+    margin-left: 0px;
+}
+
+.dropdown-content a {
+    color: black !important;
+    padding: 10px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    border-bottom: 1px solid black;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+footer{
+    display: flex;
+    background-color: black;
+    padding-top: 20px;
+    width: 100%;
+}
+
+footer ul{
+    border-top: 1px solid white;
+    width: 100%;
+    padding-top: 25px;
+    list-style-type: none;
+}
+
+footer li{
+    float:left;
+}
+
+
+footer ul img{
+    width:60%;
+    float:left;
+    margin-right: -5px;
+}
+
+
+footer li a{
+    border-bottom: 0px;
+    color: white;
+    margin-right: 15px;
+}
+
+.button {
+    background-color: white; 
+    border: none;
+    color: black;
+    padding: 10px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 20px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    transform: translateX(100%);
+    margin-top: 30px;
+}
+
+.button:hover {
+    background-color: #89d5f1;
+    color: white;
+}
+    
+/**iFrame for map**/
+.iframe{
+    display: table;
+    margin:0px auto;
+    width: 80%;
+    height:10%;
+    margin-bottom:50px;
+}
+    
+/** Schedule background **/
+#schedule{
+    height:4500px;
+    width:100%;
+    background: url(images/schedule_bkg.jpg)
+        center center fixed no-repeat;
+    background-size: cover; 
+}
+
+/** Day 1 Event **/
+.day_1 h5{
+    text-transform: uppercase;
+    font-family: "Lucida";
+    font-size: 1em;
+    float: right;
+    margin-top: 0px;
+    margin-right: 2%;
+    color: black;
+    margin-bottom: 25px;
+
+}
+
+/** Day 2 Event **/
+.day_2 h5{
+    text-transform: uppercase;
+    font-family: "Lucida";
+    font-size: 1em;
+    float: right;
+    margin-top: 0px;
+    margin-right: 2%;
+    color: white;
+    margin-bottom: 25px;
+
+}
+
+/** Day 1 table **/
+.day_1{
+    margin-left:3%;
+    margin-right: 3%;
+    width:94%;
+    margin-top: 60px;
+    border-spacing: 0px 40px;
+    background-color: rgba(255,255,255,.25);
+    float: left;
+    padding-left: 2%;
+
+}
+/** Day 1 time **/
+.day_1 h3{
+    color: black;
+    margin-bottom: 0px;
+    margin-top: -30px;
+}
+
+/** Day 2 time **/
+.day_2 h3{
+    color: white;
+    margin-bottom: 0px;
+    margin-top: -30px;
+}
+
+/** Day 2 table **/
+.day_2{
+    margin-left: 3%;
+    margin-right: 3%;
+    width:94%;
+    margin-top: 40px;
+    border-spacing: 0px 40px;
+    background-color: rgba(0,0,0,.5);
+    float: right;
+    padding-left: 2%;
+    color: white;
+}
+
+/** Day 1 talk name **/
+.day_1 p{
+    color: black;
+    float: right;
+    margin-top: -70px;
+    margin-right: 2%;
+    text-align: right;
+}
+
+/** Day 2 talk name **/
+.day_2 p{
+    color: white;
+    float: right;
+    margin-top: -70px;
+    margin-right: 2%;
+    text-align: right;
+}
+    
+.day_1 h6{
+    color: black;
+    font-family: "ArialBlack";
+    font-size: 2em;
+    float: left;
+    margin-top: 0;
+    text-decoration: underline;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+    }
+    
+    
+.day_2 h6{
+    color: white;
+    font-family: "ArialBlack";
+    font-size: 2em;
+    float: left;
+    margin-top: 0;
+    text-decoration: underline;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+    }
+}
